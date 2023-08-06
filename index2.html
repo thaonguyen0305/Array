@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let array = [2, 3, 1, 4, 6, 3, 4, 8, 10, 3]
+        let x = prompt("Enter a number: ")
+        let arr = []
+        for (const item  of array) {
+            if ( item == x) {
+                arr.push(item)  
+            } 
+        }
+        if (arr == 0) {
+            document.write(x + " khong ton tai trong mang")
+        } else {
+            document.write(x + " xuat hien " + arr.length + " lan")
+        }
+        
+
+    </script>
+
+</body>
+</html>
